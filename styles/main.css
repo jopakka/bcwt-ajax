@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #EEE;
+}
+
+main {
+    margin: auto;
+    min-width: 30em;
+    max-width: 64em;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.show {
+    display: flex;
+    background-color: #d0d0d0;
+    margin: 0.6em;
+    padding: 1em;
+    overflow: auto;
+    filter: drop-shadow(0.1em 0.1em 0.1em #000000);
+}
+
+.show > img {
+    width: 210px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.show-info {
+    margin-left: 1em;
+}
+
+.show-info > p {
+    text-align: justify;
+}
